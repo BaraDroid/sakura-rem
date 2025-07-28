@@ -50,7 +50,7 @@ body {
     color: white;
 }
 
-footer {
+header {
     height: 11.2rem;
     display: flex;
     justify-content: space-between;
@@ -200,4 +200,48 @@ td:first-of-type {
 
 .backwards {
     flex-direction: row-reverse;
+}
+
+.position {
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adress {
+    margin-bottom: 6.4rem;
+    font-size: 2.4rem;
+}
+
+.adress img {
+    height: 2.4rem;
+}
+
+iframe {
+    margin-bottom: 2.4rem;
+}
+
+footer {
+    background-color: var(--footer-bgr);
+    padding: 0 16rem;
+    height: 14.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo {
+    height: 4.4rem;
+    width: fit-content;
+}
+
+.icons {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.social_icon {
+    width: 4rem;
+    height: 4rem;
 }
