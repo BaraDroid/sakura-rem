@@ -92,6 +92,7 @@ footer img {
 
 .navlink:hover {
     font-weight: bold;
+    background-color: #b30f0f;
 }
 
 .heading {
@@ -123,7 +124,7 @@ footer img {
     gap: 6.4rem;
 }
 
-.how_to h2 {
+h2 {
     font-weight: bold;
     font-size: 8rem;
     text-align: center;
@@ -150,4 +151,53 @@ footer img {
     width: 12.8rem;
 }
 
+.our_menu {
+    padding: 12rem 16rem;
+    background-image: url('assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg');
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+}
 
+.offers {
+    display: flex;
+    flex-direction: column;
+    gap: 5.6rem;
+}
+
+.one_offer {
+    display: flex;
+    gap: 8rem;
+}
+
+.dish_image {
+    width: 35.2rem;
+    height: 35.2rem;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 5.6rem;
+}
+
+.price_table {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+table {
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: var(--dish-price-text);
+}
+
+td:first-of-type {
+    padding: .4rem 0;
+    padding-right: 20rem;
+}
+
+.backwards {
+    flex-direction: row-reverse;
+}
