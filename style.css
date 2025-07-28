@@ -42,6 +42,7 @@ body {
 
 .hero {
     background-image: url('assets/img/1_hero/JPG/hero_bg.jpg');
+    background-color: var(--footer-bgr);
     background-position: center;
     background-size: cover;
     height: 100dvh;
@@ -66,27 +67,31 @@ footer img {
     width: 2.4rem;
 }
 
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navlink {
+    font-size: 2.4rem;
+    width: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .phone_link {
     padding: 8px;
     background-color: var(--red-color);
     border: 2px solid white;
     border-radius: 12px;
-}
-
-.navlink {
-    font-size: 2.4rem;
-    margin-left: 4rem;
+    display: flex;
+    justify-content: center;
+    width: 22rem;
 }
 
 .navlink:hover {
     font-weight: bold;
-}
-/*tady se mrknout do moji prvni/stary Sakury, aby mi to necukalo, border-box prece mam*/
-
-.phone_link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .heading {
@@ -94,8 +99,7 @@ footer img {
     place-items: center;
     position: absolute;
     justify-self: center;
-    top: 30%;
-    bottom: 70%;
+    top: 40%;
 }
 
 .restaurant_name {
@@ -106,4 +110,44 @@ footer img {
 .restaurant_motto {
     font-size: 2.4rem;
 }
+
+.economica {
+    font-family: 'Economica';
+}
+
+.how_to {
+    padding: 12rem 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6.4rem;
+}
+
+.how_to h2 {
+    font-weight: bold;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.dish_parts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one_dish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.6rem;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5.6rem;
+}
+
+.one_dish img {
+    width: 12.8rem;
+}
+
 
